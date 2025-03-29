@@ -25,34 +25,32 @@
                 </div>
                 <ul class="nav_menu d-flex justify-content-between align-items-center m-0 p-0">
                     <li>
-                        <a href="">الأقسام الطبية</a>
+                        <a href="#medicalDep">الأقسام الطبية</a>
                     </li>
                     <li>
-                        <a href="">
+                        <a href="#helpDep">
                             الأقسام المساندة
                         </a>
                     </li>
                     <li>
-                        <a href="">
+                        <a href="#unmidDep">
                             المرافق غير الطبية
                         </a>
                     </li>
                     <li>
-                        <button class="btn">
-                            <img src="./images/contact_icon.png" alt="">
-                            <span>تواصل معنا الان</span>
-                        </button>
+                        <a href="#contact">
+                            <button class="btn">
+                                <img src="./images/contact_icon.png" alt="">
+                                <span>تواصل معنا الان</span>
+                            </button>
+                        </a>
                     </li>
                 </ul>
             </div>
         </div>
 
 
-
-
-
-
-
+        <!-- in mobile mode -->
 
         <div class="nav_sec mob_mode d-none">
             <div class="container d-flex justify-content-between align-items-center">
@@ -67,15 +65,15 @@
                         <nav class="nav-menu">
                             <ul>
                                 <li>
-                                    <a href="">الأقسام الطبية</a>
+                                    <a href="#medicalDep">الأقسام الطبية</a>
                                 </li>
                                 <li>
-                                    <a href="">
+                                    <a href="#helpDep">
                                         الأقسام المساندة
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="">
+                                    <a href="#unmidDep">
                                         المرافق غير الطبية
                                     </a>
                                 </li>
@@ -84,17 +82,20 @@
                     </li>
                   
                     <li>
-                        <button class="btn">
-                            <img src="./images/contact_icon.png" alt="">
-                            <span>تواصل معنا الان</span>
-                        </button>
+                        <a href="#contact">
+                            <button class="btn">
+                                <img src="./images/contact_icon.png" alt="">
+                                <span>تواصل معنا الان</span>
+                            </button>
+                        </a>
+                        
                     </li>
                 </ul>
               
             </div>
         </div>
 
-
+        <!-- end -->
 
 
 
@@ -131,11 +132,14 @@
                         </div>
                       <p>نُقدّم خدمات تجهيز المستشفيات والمراكز الطبية وفق أعلى المعايير العالمية، مع التركيز على كل التفاصيل التي تضمن بيئة علاجية حديثة .</p>
                       <button class="btn contact_btn d-flex align-items-center justify-content-center my-4">
-                        <span>
-                            تواصل معنا الان
-    
-                        </span>
-                        <i class="fa-solid fa-arrow-left pe-2"></i>
+                        <a href="#contact">
+                            <span>
+                                تواصل معنا الان
+        
+                            </span>
+                            <i class="fa-solid fa-arrow-left pe-2"></i>
+                        </a>
+                        
                       </button>
                     </div>
                     <div class="col-5 main_imgs p-0">
@@ -176,7 +180,7 @@
     <!-- start medical section -->
     <div class="medical-section">
         
-        <div class="medical-content">
+        <div class="medical-content" id="medicalDep">
             <h2>تجهيز الأقسام الطبية</h2>
             <p>
                 نقوم بتجهيز كافة الأقسام الطبية اللازمة مع مراعاة كل التفاصيل التقنية والطبية الحديثة 
@@ -206,13 +210,17 @@
                 </ul>
             </div>
           
-            <button class="contact-button">تواصل معنا الآن</button>
+            <button class="contact-button">
+                <a href="#contact">
+                تواصل معنا الآن
+                </a>
+            </button>
         </div>
         <div class="medical-image">
             <img src="./images/medical_sec_img1.png"alt="">
         </div>
     </div>
-    <div class="medical-section">
+    <div class="medical-section" id="helpDep">
         <div class="medical-image">
             <img src="./images/medical_sec_img2.png"alt="">
         </div>
@@ -243,11 +251,15 @@
                 </ul>
             </div>
           
-            <button class="contact-button">تواصل معنا الآن</button>
-        </div>
+
+            <button class="contact-button">
+                <a href="#contact">
+                تواصل معنا الآن
+                </a>
+            </button>        </div>
       
     </div>
-    <div class="medical-section">
+    <div class="medical-section" id="unmidDep">
         
         <div class="medical-content">
             <h2>تجهيز الأقسام غير الطبية</h2>
@@ -269,7 +281,12 @@
                 </ul>
             </div>
           
-            <button class="contact-button">تواصل معنا الآن</button>
+       
+            <button class="contact-button">
+                <a href="#contact">
+                تواصل معنا الآن
+                </a>
+            </button>
         </div>
         <div class="medical-image">
             <img src="./images/medical_sec_img1.png" alt="">
@@ -466,11 +483,11 @@
               <div class="faq_item">
                   <div class="faq_header">
                       <i class="fas fa-minus faq_minus"></i>
-                      <h5 >ما هي الخدمات التي تقدمها شركة سيناء؟</h5>
+                      <h5 >ما هي الخدمات التي تقدمها شركة سباما؟</h5>
                       <i class="fas fa-arrow-left faq_icon"></i>
                   </div>
                   <div class="faq_answer">
-                      شركة سيناء تقدم خدمات متكاملة لتجهيز الأقسام الطبية والمساندة وغير
+                      شركة سباما تقدم خدمات متكاملة لتجهيز الأقسام الطبية والمساندة وغير
                       الطبية، بالإضافة إلى خدمات دراسة وتحليل احتياجات، التوريد، التركيب،
                       التدريب، والدعم الفني بعد البيع.
                   </div>
@@ -550,13 +567,13 @@
                   <div class="faq_header">
                       <i class="fas fa-minus faq_minus"></i>
                       <h5>
-                      ما هي الخبرة التي تتمتع بها شركة سيناء في مجال تجهيز المنشآت
+                      ما هي الخبرة التي تتمتع بها شركة سباما في مجال تجهيز المنشآت
                       الطبية؟
                       </h5>
                       <i class="fas fa-arrow-left faq_icon"></i>
                   </div>
                   <div class="faq_answer">
-                      تتمتع شركة سيناء بخبرة واسعة تمتد لسنوات في مجال تجهيز المنشآت
+                      تتمتع شركة سباما بخبرة واسعة تمتد لسنوات في مجال تجهيز المنشآت
                       الطبية، مع سجل حافل من المشاريع الناجحة في مختلف المستشفيات والمراكز
                       الطبية.
                   </div>
@@ -579,7 +596,7 @@
       </section>
   
       <!-- *************contact us start*********************** / -->
-      <section class="contact_us">
+      <section class="contact_us" id="contact">
           <div class="container">
               <div class="contact_us_row">
                 <div class="contact_us_form">
@@ -636,7 +653,7 @@
               <div class="col-12 col-lg-3 footer_contact text-center text-lg-right pb-4">
                 <p>www.spama.sa</p>
                 <p>admin@spama.sa</p>
-                <p>920026005</p>
+                <p>8001280001</p>
                 <p>المملكة العربية السعودية</p>
               </div>
             </div>
