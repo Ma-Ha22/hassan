@@ -28,6 +28,7 @@ ul{
 }
 a{
     text-decoration: none;
+    color: var(--white-clr);
 }
 .container{
     margin: 0 103px;
@@ -167,6 +168,9 @@ a{
     font-size: 18px;
     font-weight: bold;
     padding: 7px 0;
+}
+.contact_btn a{
+  color: var(--w);
 }
 .main_imgs.col-5{
     width: 54.666667%;
@@ -665,8 +669,6 @@ a{
   
   /* ********************** question ************************ */
   .faq_question {
-    width: 90%;
-    margin: 0 auto;
     padding-top: 60px;
   }
   
